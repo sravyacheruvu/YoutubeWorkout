@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="./app.js"></script>
+  <script src="https://apis.google.com/js/api.js"></script>
+
+  <h1>Time to Workout!</h1>
+  <div id='container'>
+
+    <form action="#">
+      <p><input type="submit" value="I want to workout at Home" class='submit-btn-primary' onclick=loadMainVideo()></p>
+      <button id='weather-btn' onclick=findWeatherDetails()> Go for a run?
+        <p id='temperature'> Temperature </p>
+        <p id='humidity'> Humidity </p>
+        <p id='pressure'> pressure </p>
+        <p id='windSpeed'> windSpeed </p>
+
+
+      </button>
+    </form>
+
+
+  </div>
+  <div class="youtube_video_feed grid-container">
+    <p id="youtube_feed" id="grid_item"> </p>
+    <p id="youtube_feed1" id="grid_item"> </p>
+    <p id="youtube_feed2" id="grid_item"> </p>
+    <p id="youtube_feed3" id="grid_item"> </p>
+    <p id="youtube_feed4" id="grid_item"> </p>
+    <p id="youtube_feed5" id="grid_item"> </p>
+  </div>
+
+  </div>
+
+
+
+
+</body>
+
+
+</html>
